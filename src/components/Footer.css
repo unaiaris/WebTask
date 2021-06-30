@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  background: #222;
+}
+.footer a,
+.footer p {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+a:hover {
+  color: #9b9b9b;
+}

@@ -1,0 +1,16 @@
+.carousel-wrapper {
+  display: flex;
+} 
+.carousel{
+  height: 256px;
+}
+.caro-img{
+  height: 256px;
+}
+
+@media (min-width: 776px) {
+  .carousel-wrapper {
+    display: none;
+  }
+}
+

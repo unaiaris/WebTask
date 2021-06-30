@@ -1,0 +1,36 @@
+.car-info-container {
+  display: flex;
+  padding: 20px 0px 5px 0px;
+}
+.car-info-container .divider {
+  width: 5px;
+  background: transparent;
+}
+.car-info-card {
+  flex: 1;
+  background-color: #ffff;
+  padding: 40px;
+  margin: 0px;
+}
+
+.car-info-card h4 {
+  margin-bottom: 24px !important;
+}
+
+.table td, .table th {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+}
+/* 28 = 32 - 4 */
+@media (min-width: 776px) {
+  .car-info-container {
+    padding: 24px 28px;
+  }
+  .car-info-card {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
